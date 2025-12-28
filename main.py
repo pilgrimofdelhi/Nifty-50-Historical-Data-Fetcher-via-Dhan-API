@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from scipy.stats import skew, kurtosis
 
-ACCESS_TOKEN = '' #Enter your access token
+ACCESS_TOKEN = '..' #Enter your access token
 
 # Dhan API endpoint for daily historical data
 url = 'https://api.dhan.co/v2/charts/historical'
@@ -15,7 +15,7 @@ security_id = '19'  # Nifty 50 Index (ensure this ID is correct)
 exchange_segment = 'IDX_I'
 instrument = 'INDEX'
 from_date = '2024-01-01'
-to_date = '2025-06-11'  # Non-inclusive
+to_date = '2025-12-26'  # Non-inclusive
 
 # Headers
 headers = {
